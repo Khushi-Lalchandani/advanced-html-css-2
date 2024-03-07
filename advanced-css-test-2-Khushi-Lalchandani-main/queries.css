@@ -1,0 +1,131 @@
+/* Below 1504px (For Smaller Desktops) */
+@media (max-width: 94em) {
+  .testimonial-1,
+  .testimonial-2 {
+    padding: 2.6rem;
+  }
+  .reminder-flex {
+    gap: 4.8rem;
+  }
+  .set-reminder {
+    width: 18rem;
+    padding: 0.8rem;
+  }
+  .reminder-text {
+    font-size: 1.8rem;
+  }
+  .pbar1-details {
+    margin-top: 10.5rem;
+  }
+  .heading-tertiary {
+    font-size: 2.4rem;
+  }
+}
+/* Below 1392px (Landscape tablets) */
+@media (max-width: 87em) {
+  .testimonial {
+    display: flex;
+    flex-direction: column;
+  }
+  .testimonial-1,
+  .testimonial-2 {
+    height: 300px;
+    width: 100%;
+  }
+
+  .pbar-details {
+    margin-top: 8.5rem;
+  }
+  .pbar1-details {
+    margin-top: 4.5rem;
+  }
+  .testimonial-reminder {
+    width: 108%;
+  }
+  .section-menu {
+    max-width: 180px;
+    line-height: 1.4;
+  }
+  .personal-details {
+    gap: 0.3rem;
+  }
+  .btns {
+    margin-right: 4.2rem;
+  }
+  .edit {
+    margin-right: 2.4rem;
+  }
+  .task-details {
+    row-gap: 3.2rem;
+    column-gap: 3.2rem;
+  }
+  .details {
+    width: 92%;
+  }
+  .section-home-page {
+    max-width: 340px;
+    margin-left: 1.6rem;
+  }
+}
+/* Below 1200px (Tablets) */
+@media (max-width: 75em) {
+  .section-home-page {
+    width: 250px;
+  }
+  .testimonial-1,
+  .testimonial-2 {
+    height: 250px;
+    width: 100%;
+  }
+  .heading-tertiary {
+    font-size: 1.6rem;
+  }
+  .home-page-flex {
+    align-items: center;
+    justify-content: center;
+    gap: 3.2rem;
+  }
+  .pbar-details {
+    margin-top: 5.5rem;
+  }
+  .pbar1-details {
+    margin-top: -0.3rem;
+  }
+  .testimonial-header {
+    width: 100%;
+    height: auto;
+  }
+  .reminder-flex {
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 1.4rem;
+  }
+  .testimonial-reminder {
+    width: 100%;
+  }
+  .reminder-time {
+    margin-bottom: 0.8rem;
+  }
+  .set-reminder {
+    width: 12rem;
+  }
+  .reminder-buttons {
+    transform: translateX(40%);
+  }
+  .details {
+    gap: 3.8rem;
+  }
+}
+/* Below 1104px (Smaller ablets) */
+@media (max-width: 69em) {
+  .add-new,
+  .change-color,
+  .prototype,
+  .homepage {
+    height: 17rem;
+    width: 17rem;
+  }
+  .main {
+    padding: 0;
+  }
+}

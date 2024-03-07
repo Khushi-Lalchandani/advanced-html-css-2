@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <title>Ziferblat</title>
+  </head>
+  <body>
+    <section class="main">
+      <section class="section-task">
+        <div class="main-icon">
+          <a href="#"><img class="company-logo" src="img/logo.png" /></a>
+        </div>
+        <section class="section-icon">
+          <div class="container">
+            <ion-icon class="icon" name="home-outline"></ion-icon>
+          </div>
+
+          <ion-icon class="icon" name="people-outline"></ion-icon>
+          <ion-icon class="icon" name="calendar-outline"></ion-icon>
+          <ion-icon class="icon" name="checkbox-outline"></ion-icon>
+          <ion-icon class="icon" name="time-outline"></ion-icon>
+          <ion-icon class="icon" name="chatbubble-outline"></ion-icon>
+
+          <ion-icon class="last" name="help-circle-sharp"></ion-icon>
+        </section>
+        <div class="company">
+          <p class="company-name">Ziferblat</p>
+          <p class="properties">Teamwork & time management</p>
+        </div>
+        <nav class="section-menu">
+          <div class="menu-item">
+            <div class="menu-container">
+              <p class="menu-text"><strong>Team</strong></p>
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-container">
+              <p class="menu-text"><strong>Projects</strong></p>
+              <ion-icon
+                class="menu-icon"
+                name="chevron-down-outline"
+              ></ion-icon>
+            </div>
+            <p class="hidden-text">All projects(4)</p>
+            <p class="hidden-text">Design system</p>
+            <p class="hidden-text">Make unique design for customer</p>
+            <p class="hidden-text">User Flow</p>
+            <p class="hidden-text">UX research</p>
+            <p class="hidden-text"><strong>Add new project</strong></p>
+          </div>
+          <div class="menu-item">
+            <div class="menu-container">
+              <p class="menu-text"><strong>Tasks</strong></p>
+              <ion-icon
+                class="menu-icon"
+                name="chevron-down-outline"
+              ></ion-icon>
+            </div>
+            <p class="hidden-text">All tasks(3)</p>
+            <p class="hidden-text">New(1)</p>
+            <p class="hidden-text">In progress(1)</p>
+            <p class="hidden-text">Done(1)</p>
+          </div>
+          <div class="menu-item">
+            <div class="menu-container">
+              <p class="menu-text"><strong>Reminders</strong></p>
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-container">
+              <p class="menu-text"><strong>Messenger</strong></p>
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+            </div>
+          </div>
+        </nav>
+      </section>
+      <section class="section-work">
+        <section class="section-home-page">
+          <div class="home-container">
+            <h1 class="heading">Today, 4 October</h1>
+
+            <input
+              class="home-bar"
+              type="search"
+              placeholder="Search for..."
+              id="search-bar"
+            />
+          </div>
+          <section class="home-page-container">
+            <div class="home-page-flex">
+              <h3 class="heading-tertiary">Recent projects</h3>
+              <p class="heading-text">View all</p>
+            </div>
+            <div class="testimonial">
+              <div class="testimonial-1">
+                <div class="testimonial-1-img">
+                  <button class="testimonial-btn one">+3</button>
+                  <img class="team-img" src="img/img2.webp" />
+                  <img class="team-img" src="img/img3.webp" />
+                </div>
+                <h2 class="heading-secondary">Design system</h2>
+                <p class="testimonial-text">Deadline: 18 October</p>
+                <div class="pbar-details">
+                  <label class="barlabel" for="progress-bar"
+                    >84 hours / 40%</label
+                  >
+                  <div class="progress-bar">
+                    <div class="pbar"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonial-2">
+                <div class="testimonial-2-img">
+                  <button class="testimonial-btn">+2</button>
+                  <img class="team-img" src="img/img2.webp" />
+                  <img class="team-img" src="img/img3.webp" />
+                </div>
+                <h2 class="heading-tertiary">Make unique page for customer</h2>
+                <p class="testimonial-text">Deadline: 30 October</p>
+                <div class="pbar1-details">
+                  <label class="barlabel" for="progress-bar-1"
+                    >108 hours / 75%</label
+                  >
+                  <div class="progress-bar-1">
+                    <div class="pbar-1"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonial-header">
+                <h3 class="heading-tertiary">Reminders</h3>
+                <div class="testimonial-reminder">
+                  <p class="reminder-time">Tomorrow, 16:00-18:00</p>
+                  <div class="reminder-flex">
+                    <p class="reminder-text">
+                      Discussion of the intern results of the project
+                    </p>
+                    <button class="set-reminder">Set reminder</button>
+                  </div>
+                  <div class="reminder-buttons">
+                    <button class="carousel-btn btn-1"></button>
+                    <button class="carousel-btn"></button>
+                    <button class="carousel-btn"></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+        <section class="section-details">
+          <div class="btns">
+            <button class="menu-button"></button>
+            <button class="menu-button"></button>
+            <button class="menu-button"></button>
+          </div>
+          <div class="personal-details">
+            <button class="add-project">Add project</button>
+            
+              <ion-icon
+                class="notifications"
+                name="notifications-outline"
+              ></ion-icon>
+              <img />
+              <img src="img/img2.webp" alt="Member's image" class="me" />
+              <div class="misc">
+                <p class="misc-type">User</p>
+                <p class="misc-text">Maria</p>
+              </div>
+              <ion-icon
+                class="down-arrow"
+                name="chevron-down-outline"
+              ></ion-icon>
+            
+          </div>
+          <h3 class="heading-tertiary">Team members</h3>
+          <div class="member-img">
+            <img class="team-img-main" src="img/img2.webp" />
+            <img class="team-img-main" src="img/img3.webp" />
+            <img class="team-img-main" src="img/img4.webp" />
+            <img class="team-img-main" src="img/img5.webp" />
+            <button class="team-button-main">&plus;</button>
+          </div>
+          <div class="details">
+            <div class="work-details">
+              <label class="work" for="#work-text">Project time</label>
+              <p id="work-text"><strong>18 hours</strong></p>
+            </div>
+            <div class="work-details">
+              <label class="work" for="#work-text">Tasks in progress</label>
+              <p id="work-text"><strong>2</strong></p>
+            </div>
+            <div class="work-details">
+              <label class="work" for="#work-text">Finished tasks</label>
+              <p id="work-text"><strong>16</strong></p>
+            </div>
+          </div>
+          <div class="details-heading">
+            <h3 class="heading-tertiary">Daily tasks(3)</h3>
+            <p class="edit">Edit</p>
+          </div>
+          <div class="task-details">
+            <div class="add-new">
+              <p class="add-new-text">Add new</p>
+              <span class="add-new-icon">&plus;</span>
+            </div>
+            <div class="change-color">
+              <div class="abs">
+                <button class="ccbutton"></button>
+                <span class="cctext">New</span>
+                <div class="ccbox"></div>
+              </div>
+              <p class="text1">Change color palette to more bright</p>
+            </div>
+            <div class="prototype">
+              <div class="abs">
+                <button class="pbutton"></button>
+                <span class="ptext">In progress</span>
+                <div class="pbox"></div>
+              </div>
+
+              <p class="text2">Make prototype for mobile version</p>
+            </div>
+
+            <div class="homepage">
+              <div class="abs">
+                <button class="hpbutton"></button>
+                <span class="hptext">Done</span>
+                <div class="hpbox box">
+                  <ion-icon
+                    class="hpicon"
+                    name="chevron-down-outline"
+                  ></ion-icon>
+                </div>
+              </div>
+              <p class="text3">Make fixes in homepage</p>
+            </div>
+          </div>
+        </section>
+      </section>
+    </section>
+  </body>
+</html>
